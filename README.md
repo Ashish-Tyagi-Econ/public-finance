@@ -1,6 +1,6 @@
 # Ashish Tyagi | Economics & Data Portfolio
 
-Final-year B.A. (Hons. with Research) Economics student at Rajdhani College, Delhi University. Minor in Commerce.
+Final-year B.A. (Hons.) Economics with Research student at Rajdhani College, Delhi University. Minor in Commerce.
 
 This repository holds my independent data projects focused on Indian public finance, labor markets, and macroeconomic policy. All analyses are built using raw government datasets.
 
