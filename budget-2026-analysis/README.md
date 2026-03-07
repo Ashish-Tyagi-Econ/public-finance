@@ -1,8 +1,11 @@
 # Union Budget 2026-27 Analysis
 
 **Objective:** To analyze the 2026-27 Indian Union Budget allocations, identifying top-funded ministries, high-growth schemes, and core fiscal priorities.
+
 **Data:** Union Budget 2026-27 (Raw and cleaned CSVs provided).
+
 **Methodology:** Engineered a structured database and executed SQL queries utilizing aggregations and window functions to extract year-over-year fiscal trends.
+
 **Outputs:** Raw query results exported as CSVs for transparency.
 
 **Key Findings:**
