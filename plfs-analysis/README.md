@@ -1,8 +1,11 @@
 # PLFS Determinants
 
 **Objective:** To model the impact of core demographic factors (age, gender, education) on employment probability in India.
+
 **Data:** Periodic Labour Force Survey (PLFS) microdata (working-age cohort, 15-59 years).
+
 **Methodology:** Cross-sectional econometric analysis in Stata using logistic regression, reporting Average Marginal Effects (AME) for policy interpretation.
+
 **Outputs:** Automated publication-ready regression tables exported via `outreg2`.
 
 **Key Findings:**  **The Gender Gap:** Gender is the strongest predictor of employment status. Controlling for age and education, being female decreases the probability of employment by 47.9 percentage points (p < 0.001) compared to males.
