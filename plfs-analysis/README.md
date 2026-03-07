@@ -1,4 +1,4 @@
-# PLFS Employment Determinants
+# PLFS Determinants
 
 **Objective:** To model the impact of core demographic factors (age, gender, education) on employment probability in India.
 **Data:** Periodic Labour Force Survey (PLFS) microdata (working-age cohort, 15-59 years).
