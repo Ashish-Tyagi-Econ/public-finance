@@ -1,8 +1,11 @@
 # Public Finance Dashboard
 
 **Objective:** To visually synthesize Indian state-level fiscal data for rapid policy analysis.
+
 **Data:** State and Union Territory fiscal datasets (2011-2024).
+
 **Methodology:** Developed a Power BI dashboard focusing on KPI tracking and expenditure trends.
+
 **Outputs:** A `.pbix` source file and a high-resolution `.pdf` export for immediate viewing.
 
 **Key Findings:**
