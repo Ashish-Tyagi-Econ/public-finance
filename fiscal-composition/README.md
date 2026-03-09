@@ -1,19 +1,21 @@
 # Indian Fiscal Policy Dynamics (1992–2023)
 
-**Objective:** To analyze the short-run and long-run impacts of India's fiscal composition on macroeconomic performance.
+## Objective
+An empirical time-series analysis evaluating the short-run and long-run dynamics of India's fiscal policy, specifically examining the relationship between capital expenditure, revenue deficits, and economic growth.
 
-**Data:** Annual time-series data (1992–2023) sourced from the RBI Handbook of Statistics and National Accounts Statistics. Core variables include real GDP, real revenue deficit, and real capital expenditure. Additional robustness checks use fiscal ratios such as Capex/GDP and RD/GDP.
+## Methodology
+* **Stationarity:** Augmented Dickey-Fuller (ADF) tests.
+* **Cointegration:** Johansen cointegration test confirming a stable long-run relationship between Real GDP, Revenue Deficit, and Capital Expenditure.
+* **Modeling:** Vector Error Correction Model (VECM) and VAR-Granger causality tests.
 
-**Methodology:** Time-series econometric analysis in Stata. Augmented Dickey–Fuller (ADF) tests confirm the variables are non-stationary in levels but stationary in first differences (I(1)). Lag length was selected using AIC/HQIC/SBIC criteria before conducting Johansen cointegration tests. A Vector Error Correction Model (VECM) was estimated to capture long-run equilibrium relationships and short-run dynamics. Wald tests and VAR–Granger causality tests were used for short-run causal analysis.
+## Key Findings & Results
+* **Short-Run Impact:** Capital expenditure significantly influences GDP growth (p ≈ 0.01).
+* **Feedback Mechanism:** GDP growth demonstrates a strong feedback effect, driving higher subsequent capital spending (p ≈ 0.007).
+* **Adjustment Speed:** The model indicates a long-run coordination coefficient of 41.7% and a speed of adjustment of 43.6% toward equilibrium.
+* **Fiscal Ratios:** No significant short-run causal relationships were observed for revenue deficit or other fiscal ratios (p > 0.10).
+* **COVID-19 Analysis:** Identified a "Scissor Effect" during the pandemic period—the simultaneous contraction of revenue and surge in essential expenditure.
 
-**Outputs:** Key coefficients and results were exported using `putexcel` for structured reporting. Relevant econometric outputs are included in the `results/` directory.
-
-**Key Findings:**
-
-- **Long-Run Relationship:** Johansen cointegration tests confirm a stable long-run equilibrium relationship between real GDP, revenue deficit, and capital expenditure.
-
-- **Capital Expenditure Effects:** VECM and Wald tests show that capital expenditure significantly influences GDP growth in the short run (p ≈ 0.01), while GDP growth also feeds back into higher capital spending (p ≈ 0.007).
-
-- **Revenue Deficit:** No statistically significant short-run growth effects were found for revenue deficit changes.
-
-- **Ratio Neutrality:** VAR and Granger causality tests on fiscal ratios (Capex/GDP and RD/GDP) show no significant short-run causal relationships (p > 0.10), suggesting absolute fiscal magnitudes matter more than compositional ratios.
+## Data & Tools
+* **Timeframe:** 1992–2023 (Annual data)
+* **Sources:** RBI Handbook of Statistics, National Accounts Statistics
+* **Software:** Stata
