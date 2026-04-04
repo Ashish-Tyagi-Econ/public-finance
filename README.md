@@ -7,7 +7,7 @@ This repository holds my independent data projects focused on Indian public fina
 ## Projects
 
 * **[Fiscal Policy Dynamics (1992-2023)](./fiscal-composition)**
-  * Time-series econometric analysis in Stata for my dissertation. Uses VECM, ARDL, and Johansen Cointegration to test how capital versus revenue expenditure impacts India's real GDP.
+  * Time-series econometric analysis in Stata for my dissertation. Uses VECM, VAR, and Johansen Cointegration to test how capital versus revenue expenditure impacts India's real GDP.
 
 * **[PLFS Employment Determinants](./plfs-analysis)**
   * Cross-sectional logit regression in Stata. Uses PLFS microdata to measure the education premium and structural gender gaps in the Indian labor market.
