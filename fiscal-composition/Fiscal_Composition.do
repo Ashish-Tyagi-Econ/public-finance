@@ -14,6 +14,7 @@ varsoc real_gdp real_rd real_capex
 vecrank real_gdp real_rd real_capex, lags(1)
 
 vec real_gdp real_rd real_capex, rank(1) lags(2)
+* Short Run Dynamics
 test [D_real_gdp]LD.real_capex
 test [D_real_gdp]LD.real_rd
 test [D_real_capex]LD.real_gdp
